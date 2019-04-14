@@ -24,4 +24,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI ](https://github.com/angular/angular-cli/blob/master/.md).
+
+## Refenrce 
+> https://subscription.packtpub.com/book/web_development/9781788299572/1/ch01lvl1sec14/setting-up-primeng-project-with-angular-cli

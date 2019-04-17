@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import {ColorPickerModule} from 'primeng/colorpicker';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+import {PasswordModule} from 'primeng/password';
+import {ButtonModule} from 'primeng/button';
 
 import { AppComponent } from './app.component';
 import { NameComponent } from './path/name/name.component';
@@ -17,6 +19,8 @@ import { MessageComponent } from './shared/message/message.component';
   imports: [
     BrowserModule,
     ColorPickerModule,
+    PasswordModule,
+    ButtonModule,
     BrowserAnimationsModule,
     FormsModule,
   ],

@@ -10,14 +10,16 @@ export class AppComponent {
   public user: string;
   public password: string;
   public error: string;
-  
+
 
   submit() {
-    let params =  {
+    const params =  {
       username: this.user,
       password: this.password
+    };
+    if (!this.user) {
+      console.log(params);
+      this.error = 'This field is require!';
     }
-    !this.user && (this.error = "This field is require!")
-    console.log(params)
   }
 }

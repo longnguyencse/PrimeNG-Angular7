@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +17,7 @@ export class AppComponent {
       username: this.user,
       password: this.password
     };
+    console.log('abc');
     if (!this.user) {
       console.log(params);
       this.error = 'This field is require!';
